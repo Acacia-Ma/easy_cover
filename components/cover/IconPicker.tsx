@@ -7,7 +7,6 @@ import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Search, Loader2 } from 'lucide-react';
-import { useDebounce } from '@/hooks/use-debounce'; // We need to create this hook or implement locally
 
 // Simple debounce implementation inside the component for simplicity if we don't want a separate file
 function useDebounceValue<T>(value: T, delay: number): T {
